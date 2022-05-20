@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Ecología al Día</title>
+    <link rel="icon" type="image/x-icon" href="./ecologia.png">
+</head>
+<body>
+    <nav>
+        <h1>
+            <img src="./ecologia.png"
+            alt="Ecología"
+            width="40"
+            height="auto">
+            ECOLOGÍA AL DÍA</h1>
+    </nav>
+<div clas="main">
+
+    <div id="form">
+        <form action="https://formspree.io/f/xdobyrne"  target="_blank" autocomplete="on" method="post">
+            <h2>Formulario de Registro  <i class="fa-solid fa-file-pen"></i></h2><br>
+            <hr>
+            <label for="nombre" class="etiq">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" autofocus required ><br>
+            <label for="username" class="etiq">UserName:</label><br>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password" class="etiq">Password:</label><br>
+            <input type="password" id="password" name="password"required><br>
+            <label for="confpassw" class="etiq">Confirmar Password:</label><br>
+            <input type="password" id="confpassw" name="confpassw"><br>
+            <label for="email" class="etiq">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <hr>
+            <input type="checkbox" name="chkbox">
+            <label for="chkbox">He Leido los Terminos y Condiciones y declaro estar de Acuerdo.</label><br>
+            <hr>
+
+            <button>
+                <input type="submit" value="Enviar" >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+            <button>
+                <input type="reset">
+                <i class="fa-solid fa-repeat"></i>
+            </button>
+            
+            <p>Si ya tiene Cuenta <a href="./index.html" id="session"> Inicie Session</a></p>
+        </form>
+        
+    </div>
+</div>
+<script src="https://kit.fontawesome.com/f6f7cb1405.js" crossorigin="anonymous"></script>
+</body>
+</html>
